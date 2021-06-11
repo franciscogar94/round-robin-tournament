@@ -22,7 +22,7 @@ export default class Tournament implements TournamentInterface {
   readonly teams: ListTeams;
 
   constructor(teams: ListTeams) {
-    if (teams.length % 2) throw new Error("Teams length must be even");
+  //  if (teams.length % 2) throw new Error("Teams length must be even");
 
     this.teams = teams;
   }
