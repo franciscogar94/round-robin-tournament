@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "test": "jest --coverage",
-    "build": "tsc"
+    "build": "tsc",
     "postinstall":"cd ./node_modules/round-robin-tournament && npm install && npm run build"
   },
   "keywords": [
